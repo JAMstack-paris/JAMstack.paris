@@ -69,8 +69,6 @@ const StyledHeader = styled.div`
 
     ul {
       flex-direction: column;
-      margin-block-start: 0;
-      padding-inline-start: 0;
       -webkit-padding-start: 0;
       margin: 0;
       width: 100%;
