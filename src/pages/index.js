@@ -61,30 +61,23 @@ const IndexPage = ({ data }) => (
   </Layout>
 )
 
-/**
- * Because there are currently no upcoming meetup, I had to remove the following
- * query:
- * 
- *  contentfulUpcomingMeetup {
- *    title
- *    date
- *    dateFrenchFormat
- *    edition
- *    addressCompanyName
- *    addressStreetAddress
- *    addressCity
- *    meetupUrl
- *    description {
- *      childContentfulRichText {
- *        html
- *      }
- *    }  
- *  }
- *
- * It must be added back for the next meetup.
- */
 export const query = graphql`
   query {
+    contentfulUpcomingMeetup {
+      title
+      date
+      dateFrenchFormat
+      edition
+      addressCompanyName
+      addressStreetAddress
+      addressCity
+      meetupUrl
+      description {
+        childContentfulRichText {
+          html
+        }
+      }
+    }
     allContentfulTextBlock {
       edges {
         node {
