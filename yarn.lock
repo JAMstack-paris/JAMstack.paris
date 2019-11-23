@@ -1106,9 +1106,9 @@
     core-js "^2.5.7"
 
 "@matthieuauger/gatsby-theme-meetup@^1.0.5":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@matthieuauger/gatsby-theme-meetup/-/gatsby-theme-meetup-1.1.7.tgz#2308e0199105b3bfc28b19b09bb9622e692c5c06"
-  integrity sha512-Et+vvIWmLceNCVf1BLkc5FSnY3UREXarQPWYPYwa2ihee1OmLYtIeQhU2Vf7WeUBAz6YoRCoxKL3sc0lj5Le+Q==
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@matthieuauger/gatsby-theme-meetup/-/gatsby-theme-meetup-1.1.8.tgz#edfa487ec7334b3ddc429f57f7ce2ca587d1342b"
+  integrity sha512-aB/EfPgH3EHrUBvTfhtz85fnpNE6RAppv0Q5xwgv01DzaVVAlqBnr31XLfsE/CM9annBAp4eQw/v8sDQ3LfcWA==
   dependencies:
     babel-plugin-styled-components "^1.10.0"
     date-fns "^1.29.0"
